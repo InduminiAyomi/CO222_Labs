@@ -1,0 +1,18 @@
+﻿1. 78 bytes
+
+2. At the start of add funtion the memory allocation is started.
+   After stopping the main function the memory is freed.
+
+3. Take two student_t type pointers.(temp and now). Assign last node to now and travel
+   along the list and check the E number.If the E number of the first node is same as the 
+   wanted E number, assign temp pointer to now -> next node and free now node.Then re assign 
+   as last = temp
+   If we want to delete the last node assign the next of previous node as NULL and free it.
+   If we want to delete a middle node assign the temp as now -> next and delete the now node.
+
+4. Yes.
+
+5. I think array based system is suitable for this situation. Because we know the size of
+   the array and we know the number of students which we want to add.
+   And also if we want to do implement it is easy to use a array based system rather 
+   than usind a linked based system.
