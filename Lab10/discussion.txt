@@ -1,0 +1,14 @@
+1) 52000 bytes
+
+2) The memory allocation is happened before the main function is executed. After the main function is stopped the memory allocation is freed.
+
+3) To delete a records for a student, the values which is in next element of the student_t array are assigned to that element which we want to delete. 
+   Then the records in the next element are assigned to the that element. This process is done until the last record. 
+
+4) No. We can add only 1000 amount of student data to this program.
+
+5) When we want to insert a student record, first we can allocate the space in the memory, then add the records to that space.
+   We can continue this process for each turn of inserting a student record.
+   When we want to delete a student record, we can free that allocated space.
+   By using this method we can resize an array while the program is running. We can do this dynamin memory allocation by using the malloc() function and
+   we can free allocated memory by using free() function.
